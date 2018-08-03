@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assessment</title>
+</head>
+
+<body>
+    <h1>Course Sign Up Page</h1>
+
+    <form action="assessment_confirm.html" method="GET">
+        <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+        <label for="f-name">First Name:</label>
+        <input type="text" name="firstname" id="f-name" required placeholder="First Name">
+        <label for="l-name">Last Name:</label>
+        <input type="text" name="lastname" id="l-name" required placeholder="Last Name">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="useremail" id="email" required placeholder="name@email.com">
+        <label for="pwd">Password:</label>
+        <input type="password" name="password" id="pwd" required placeholder="Password">
+        <br>
+        <br>
+
+        <p>Are you over the age of 18?</p>
+        <label for="over18">Yes:</label>
+        <input type="radio" name="over" id="over18" value="Yes">
+
+        <label for="notover18">No:</label>
+        <input type="radio" name="over" id="notover18" value="No">
+        <br>
+        <br>
+
+        <p>Do you have Credit Card or Paypal?</p>
+        <select name="payment" id="">
+            <option value=1>Credit Card</option>
+            <option value=2>Pay Pal</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit Feedback">
+
+
+    </form>
+
+</body>
+
+</html>
